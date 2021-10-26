@@ -1,0 +1,9 @@
+s = IntList()
+s.insert(2)
+
+print("Is 2 a member:", s.member(2))
+
+for i in range(0,11):
+    s.insert(i)
+    
+print(s)
